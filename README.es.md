@@ -1,6 +1,6 @@
 🇪🇸 Versión en español (esta página) · 🇬🇧 [English version](./README.md)
 
-# 🏙️ Florida Investment Analysis — Power BI
+# 🏙️ Florida Investment Analysis
 
 Análisis de oportunidades de inversión inmobiliaria en condados de Florida, combinando población, crecimiento laboral, tasa de criminalidad y balance oferta/demanda para identificar las mejores zonas de entrada.
 
@@ -56,7 +56,7 @@ Determinar qué condados —y a nivel más granular, qué ciudades dentro de Mar
 
 > Lee County, pese a ser el mercado más grande, se descarta como prioridad por estar saturado (ratio <1 y sin margen de crecimiento evidente en el índice).
 
-## 🖥️ Vista previa del dashboard
+## 🖥️ Vista previa
 
 *(agrega aquí 2–3 capturas o un GIF corto desde `2.Screenshots/`, por ejemplo la página de Overview y la de ranking por condado)*
 
@@ -85,9 +85,7 @@ Determinar qué condados —y a nivel más granular, qué ciudades dentro de Mar
 ## ⚠️ Limitaciones y próximos pasos
 
 - El análisis es una **foto estática**, no una serie de tiempo — un siguiente paso natural sería automatizar la actualización de datos (Python + API, o Power Automate) para monitorear cómo evoluciona el índice de oportunidad mes a mes.
+  
 - Se podría enriquecer el modelo con variables adicionales (costo de vida, precio promedio de propiedad) para pasar de un índice de oportunidad a una proyección de ROI.
+  
 - Un pipeline de validación de datos en Python antes de la carga a Power BI daría mayor trazabilidad y robustez al modelo.
-
-## 📬 Contacto
-
-*(tu nombre · LinkedIn · GitHub)*
