@@ -1,6 +1,6 @@
 🇪🇸 [Versión en español](./README.es.md) · 🇬🇧 English version (this page)
 
-# 🏙️ Florida Investment Analysis — Power BI
+# 🏙️ Florida Investment Analysis
 
 Real estate investment opportunity analysis across Florida counties, combining population, job growth, crime rate, and supply/demand balance to identify the strongest entry points.
 
@@ -42,23 +42,29 @@ Determine which counties — and at a more granular level, which cities within M
 ## 🔎 Key Insights
 
 - The aggregate market shows **oversupply**: total demand ≈15M vs. total supply ≈18M (overall ratio of **0.81**), with a market-wide average ratio of **0.87**.
+  
 - **Lee County** has by far the largest population (99.2K) but its ratio (0.83) points to an already-saturated market — not the best entry point despite its size.
+  
 - Ranking by *Net Market Opportunity Index*, **Citrus** and **Marion County** are the only ones with a positive index (+0.03), followed by **Polk** and **Volusia** at equilibrium (0.00). The rest show a negative index (oversupply).
+  
 - At the city level (within Marion/Citrus/Polk), **Citrus Springs** stands out with a ratio of **2.16** — demand far above available supply, the strongest opportunity signal in the entire dataset.
+  
 - Job growth is relatively even at the city level (~29%) but varies much more at the county level (14.9%–44.1%), suggesting city-level analysis gives a more stable picture for short-term decisions.
+  
 - Crime rate isn't uniform within the same county: **Inverness** shows a spike of 9.51% versus an average close to 3.5–4% in the other cities — a risk factor worth monitoring even when its market ratio is favorable.
 
 ## 🏆 Recommendation — Top 3 Counties to Invest In
 
 1. **Citrus County** — top position in the opportunity ranking, and at the city level (Citrus Springs) shows the highest demand/supply ratio in the entire dataset.
+   
 2. **Marion County** — tied for the top opportunity index, with a crime rate below average (3.62%), which lowers the relative risk of the investment.
+   
 3. **Polk County** — market at equilibrium (neutral index) but with a solid population base (35.5K), offering a more conservative risk profile compared to counties in clear oversupply.
 
 > Lee County, despite being the largest market, is ruled out as a priority since it's saturated (ratio <1 with no clear growth margin in the index).
 
 ## 🖥️ Dashboard Preview
 
-*(add 2–3 screenshots or a short GIF from `2.Screenshots/` here, e.g. the Overview page and the county ranking page)*
 
 ## ⚙️ Tech Stack
 
@@ -84,10 +90,9 @@ Determine which counties — and at a more granular level, which cities within M
 
 ## ⚠️ Limitations & Next Steps
 
-- The analysis is a **static snapshot**, not a time series — a natural next step would be automating the data refresh (Python + API, or Power Automate) to track how the opportunity index evolves month over month.
+- The analysis is a **static snapshot**, not a time series a natural next step would be automating the data refresh (Python + API, or Power Automate) to track how the opportunity index evolves month over month.
+  
 - The model could be enriched with additional variables (cost of living, average property price) to move from an opportunity index to an actual ROI projection.
+  
 - A Python-based data validation pipeline before loading into Power BI would add more traceability and robustness to the model.
 
-## 📬 Contact
-
-*(your name · LinkedIn · GitHub)*
